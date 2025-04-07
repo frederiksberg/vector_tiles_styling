@@ -1,0 +1,91 @@
+{
+  "version": 8,
+  "name": "bygning",
+  "layers": [
+    {
+      "filter": [
+        "==",
+        "geometristatus",
+        "Endelig"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#d7d7d7"
+      },
+      "id": "r0_sy0_st0"
+    },
+    {
+      "filter": [
+        "==",
+        "geometristatus",
+        "Endelig"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#818181",
+        "line-width": 0.1
+      },
+      "layout": {
+        "line-join": "bevel"
+      },
+      "id": "r0_sy0_st1"
+    },
+    {
+      "filter": [
+        "==",
+        "geometristatus",
+        "Foreløbig"
+      ],
+      "type": "fill",
+      "paint": {
+        "fill-color": "#ececec"
+      },
+      "id": "r1_sy0_st0"
+    },
+    {
+      "filter": [
+        "==",
+        "geometristatus",
+        "Foreløbig"
+      ],
+      "type": "line",
+      "paint": {
+        "line-color": "#646464",
+        "line-width": 0.1,
+        "line-dasharray": [
+          4,
+          2
+        ]
+      },
+      "layout": {
+        "line-join": "bevel"
+      },
+      "id": "r1_sy0_st1"
+    }
+  ],
+  "sources": {},
+  "metadata": {
+    "geostyler:ref": {
+      "rules": [
+        {
+          "name": "Endelig",
+          "symbolizers": [
+            [
+              "r0_sy0_st0",
+              "r0_sy0_st1"
+            ]
+          ]
+        },
+        {
+          "name": "Foreløbig",
+          "symbolizers": [
+            [
+              "r1_sy0_st0",
+              "r1_sy0_st1"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}
