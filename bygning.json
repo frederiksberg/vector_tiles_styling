@@ -5,8 +5,8 @@
     "vector-source": {
         "type": "vector",
         "tiles": ["https://martin.frb-data.dk/baggrundv1/{z}/{y}/{x}"],
-        "maxZoom": 20,
-        "minZoom": 0
+        "maxZoom": 18,
+        "minZoom": 13
         }
     },
   "layers": [
