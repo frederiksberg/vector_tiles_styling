@@ -20,6 +20,7 @@
       "paint": {
         "fill-color": "#d7d7d7"
       },
+      "source": "vector-source",
       "id": "r0_sy0_st0"
     },
     {
@@ -36,6 +37,7 @@
       "layout": {
         "line-join": "bevel"
       },
+      "source": "vector-source",
       "id": "r0_sy0_st1"
     },
     {
@@ -48,6 +50,7 @@
       "paint": {
         "fill-color": "#ececec"
       },
+      "source": "vector-source",
       "id": "r1_sy0_st0"
     },
     {
@@ -68,6 +71,7 @@
       "layout": {
         "line-join": "bevel"
       },
+      "source": "vector-source",
       "id": "r1_sy0_st1"
     }
   ],
