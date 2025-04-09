@@ -4,7 +4,7 @@
   "sources": {
     "vector-source": {
         "type": "vector",
-        "tiles": ["https://martin.frb-data.dk/baggrundv1/{z}/{y}/{x}"],
+        "tiles": ["https://martin.frb-data.dk/baggrundv1/{z}/{x}/{y}"],
         "maxZoom": 18,
         "minZoom": 13
         }
